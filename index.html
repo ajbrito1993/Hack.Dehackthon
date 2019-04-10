@@ -5,65 +5,76 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
-  <script src="app.js"></script>
 
   <title> Proto Type - Learning Programming</title>
 </head>
 
 <body>
-  <h1> Hack.Diversity DeHackathon</h1>
-
-  <!----  Website Images ----->
-  <div class=mainImage>
+  <div class="jumbotron text-center">
+    <h1>Hack.Diversity DeHackathon</h1>
     <img src="portrait.png" class="rounded mx-auto d-block">
+    <h3>Learn JavaScript as a Second Language!!!</h3>
   </div>
 
-  <h1 class="learnJavaHeader"> Learn JavaScript as a Second Language!!! </h1>
-
-  <p class="pageDescription"> Reading and writing in English are expected as standard skills of a high school graduate
-    in the United States, not necessarily because we expect everyone to become a professional writer, but rather so that
-    they can communicate and express themselves at a high level. In world that is increasingly tech literate and powered
-    by code, what happens if we start to think coding not as a skill limited to computer programmers, but for anyone
-    looking to express their own ideas, digitally? Our lives and world run by algorithmic code, so far written by a
-    mostly homogenous group of people. What does it look like if we can introduce coding earlier, with high schoolers as
-    fluent in JavaScript as they are in Algebra? Which one would they end up using more later in life? What
-    interdisciplinary or critical thinking skills are engaged?
-  </p>
-
-  <!--- Website Form ---->
-
-  <div class="studentInfo">
-    <div>
-      <input type="radio" id="huey" name="drone" value="huey" checked>
-      <label for="huey">Male</label>
+  <div class="container">
+    <div class="row">
+      <div class="col">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col">
+        <p class="pageDescription"> Reading and writing in English are expected as standard skills of a high school
+          graduate
+          in the United States, not necessarily because we expect everyone to become a professional writer, but rather
+          so that
+          they can communicate and express themselves at a high level. In world that is increasingly tech literate and
+          powered
+          by code, what happens if we start to think coding not as a skill limited to computer programmers, but for
+          anyone
+          looking to express their own ideas, digitally? Our lives and world run by algorithmic code, so far written by
+          a
+          mostly homogenous group of people. What does it look like if we can introduce coding earlier, with high
+          schoolers as
+          fluent in JavaScript as they are in Algebra? Which one would they end up using more later in life? What
+          interdisciplinary or critical thinking skills are engaged?
+        </p>
+      </div>
+    </div>
+    <div class="row form-group justify-content-center">
+      <label for="firstNameInput">First Name:</label>
+      <div class="col-sm-3">
+        <input type="text" id="firstNameInput" class="form-control" placeholder="Enter your first name">
+      </div>
+    </div>
+    <div class="row form-group justify-content-center">
+      <label for="lastNameInput">Last Name:</label>
+      <div class="col-sm-3">
+        <input type="text" id="lastNameInput" class="form-control" placeholder="Enter your last name">
+      </div>
     </div>
 
-    <div>
-      <input type="radio" id="dewey" name="drone" value="dewey">
-      <label for="dewey">Female</label>
+    <div class="row justify-content-center">
+      <fieldset class="form-group">
+        <legend class="col-form-legend col-sm-2">Gender</legend>
+        <div class="col-sm-10">
+          <div class="form-check">
+            <input class="form-check-input" type="radio" id="maleGender" name="gender" value="male" checked>
+            <label class="form-check-label" for="maleGender">Male</label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" id="femaleGender" name="gender" value="female">
+            <label class="form-check-label" for="femaleGender">Female</label>
+          </div>
+        </div>
+      </fieldset>
     </div>
 
-
-    <div class="center">
-      <label class="firstNameLabel">First Name: </label>
-      <input type="text" class="col-xs-4" id="firstNameInput" aria-describedby="firstName_Input"
-        placeholder="Enter your first name">
-    </div>
-    <div class="center">
-      <label class="lastNameLabel">Last Name: </label>
-      <input type="text" class="col-xs-4" id="lastNameInput" aria-describedby="lastName_Input"
-        placeholder="Enter your last name">
-    </div>
-
-    <div class="submitBTN_STYLE">
-
-      <button type="submit" class="btn btn-primary" onclick="submitButton()">Submit</button>
-
+    <div class="row justify-content-center">
+      <div class="col-sm-2">
+        <button type="submit" class="btn btn-primary btn-lg">Submit</button>
+      </div>
     </div>
   </div>
 </body>

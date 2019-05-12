@@ -1,0 +1,47 @@
+.quotes{
+  color: #EC1800;
+}
+.class{
+  color: #0061FF;
+}
+.method{
+  color: #B78524;
+}
+.regularText{
+  color: #000;
+}
+
+.highlightSentence{
+  color: #EC1800;
+}
+
+.exampleSentence{
+  color: #0061FF;
+}
+
+.editor{
+  min-height: 300px;
+  resize: vertical;
+}
+
+.output{
+  min-height: 300px;
+}
+
+.draggable { 
+  width: 100px; 
+  height: 100px; 
+  padding: 0.5em; 
+  float: left; 
+  margin: 10px 10px 10px 0; 
+  background-color: #0061FF;
+}
+
+.droppable { 
+  width: 150px; 
+  height: 150px; 
+  padding: 0.5em; 
+  float: left; 
+  margin: 10px; 
+  background-color: #EC1800;
+}

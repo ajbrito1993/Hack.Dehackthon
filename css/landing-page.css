@@ -18,10 +18,13 @@ h6 {
   font-weight: 700;
 }
 
+.pageDescription{
+  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
 header.masthead {
   position: relative;
-  background-color: #343a40;
-  background: url("../img/bg-masthead.jpg") no-repeat center center;
+  background: url("../img/code-example.jpg");
   background-size: cover;
   padding-top: 8rem;
   padding-bottom: 8rem;
@@ -29,7 +32,7 @@ header.masthead {
 
 header.masthead .overlay {
   position: absolute;
-  background-color: #212529;
+  background-color: #120329;
   height: 100%;
   width: 100%;
   top: 0;
@@ -41,6 +44,10 @@ header.masthead h1 {
   font-size: 2rem;
 }
 
+.teamWork3{
+  background: url("../img/teamwork-3.png");
+}
+
 @media (min-width: 768px) {
   header.masthead {
     padding-top: 12rem;
@@ -49,6 +56,11 @@ header.masthead h1 {
   header.masthead h1 {
     font-size: 3rem;
   }
+}
+
+.shorthPath{
+  height: 700px;
+  weight: 700px;
 }
 
 .showcase .showcase-text {
@@ -66,6 +78,15 @@ header.masthead h1 {
   }
 }
 
+.hack_Header_One{
+  color: white;
+}
+
+.jumbotron{
+  background: black;
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+}
 .features-icons {
   padding-top: 7rem;
   padding-bottom: 7rem;
